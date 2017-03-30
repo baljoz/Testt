@@ -15,6 +15,8 @@
 		ACC7A8521E7AD66800D4FBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC7A8501E7AD66800D4FBAF /* LaunchScreen.storyboard */; };
 		ACC7A85D1E7AD66800D4FBAF /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7A85C1E7AD66800D4FBAF /* JSONTests.swift */; };
 		ACC7A8681E7AD66800D4FBAF /* JSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC7A8671E7AD66800D4FBAF /* JSONUITests.swift */; };
+		ACCD2D111E7C27BF00F1DFAF /* response.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD2D101E7C27BF00F1DFAF /* response.swift */; };
+		ACD3208E1E82840400019AA2 /* SpekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3208D1E82840400019AA2 /* SpekViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ACC7A8631E7AD66800D4FBAF /* JSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC7A8671E7AD66800D4FBAF /* JSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUITests.swift; sourceTree = "<group>"; };
 		ACC7A8691E7AD66800D4FBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCD2D101E7C27BF00F1DFAF /* response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = response.swift; sourceTree = "<group>"; };
+		ACD3208D1E82840400019AA2 /* SpekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpekViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				ACC7A8501E7AD66800D4FBAF /* LaunchScreen.storyboard */,
 				ACC7A8531E7AD66800D4FBAF /* Info.plist */,
 				ACC7A84B1E7AD66800D4FBAF /* JSON.xcdatamodeld */,
+				ACCD2D101E7C27BF00F1DFAF /* response.swift */,
+				ACD3208D1E82840400019AA2 /* SpekViewController.swift */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCD2D111E7C27BF00F1DFAF /* response.swift in Sources */,
 				ACC7A8471E7AD66800D4FBAF /* ViewController.swift in Sources */,
 				ACC7A84D1E7AD66800D4FBAF /* JSON.xcdatamodeld in Sources */,
+				ACD3208E1E82840400019AA2 /* SpekViewController.swift in Sources */,
 				ACC7A8451E7AD66800D4FBAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +515,7 @@
 				ACC7A86E1E7AD66800D4FBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACC7A86F1E7AD66800D4FBAF /* Build configuration list for PBXNativeTarget "JSONTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				ACC7A8711E7AD66800D4FBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACC7A8721E7AD66800D4FBAF /* Build configuration list for PBXNativeTarget "JSONUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				ACC7A8741E7AD66800D4FBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
